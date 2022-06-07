@@ -225,8 +225,8 @@ details.commentToggle[open] > summary::before { content: '🌟 Comment';}
 }
 
 .correct {
-    background: var(--correctColour);
-    /* background: gold; */
+    /* background: var(--correctColour); */
+    background: aliceblue;
 }
 
 div.salmon,
