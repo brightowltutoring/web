@@ -225,8 +225,8 @@ details.commentToggle[open] > summary::before { content: '🌟 Comment';}
 }
 
 .correct {
-    /* background: var(--correctColour); */
-    background: gold;
+    background: var(--correctColour);
+    /* background: gold; */
 }
 
 div.salmon,
@@ -256,9 +256,9 @@ img {
 ul.ULnone{
  list-style-type: none;
 }
-ul.ULnone h1,h2,h3{
+/* ul.ULnone h1,h2,h3{
  display:inline;
-}
+} */
 
 
 details.solutions3Toggle > summary::before { content: ' ☆ Solutions';}
