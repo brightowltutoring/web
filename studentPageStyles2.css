@@ -226,7 +226,7 @@ details.commentToggle[open] > summary::before { content: '🌟 Comment';}
 
 .correct {
     /* background: var(--correctColour); */
-    background: aliceblue;
+    background: pink;
 }
 
 div.salmon,
