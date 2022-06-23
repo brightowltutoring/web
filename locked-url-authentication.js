@@ -34,7 +34,9 @@
                
             }
             else {
-                console.log(`logged-in FAILED`);
+                console.log(`logged-in failed; page unauthorized`);
+                // TODO: added june 23 @ 3:55pm ... testing redirect from unauthorized pages
+                window.location.replace("https://www.brightowltutoring.com/login")
 
             }
  
